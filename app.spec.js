@@ -42,3 +42,12 @@ describe('Tax Calulator Test Suit',()=>{
         expect(result).toMatch('Montant doit etre > 0');
     })
 })
+
+describe('Total Suite Totaux',()=>{})
+
+// given [{label,price,qte,tax}] => Totaux (Mnt HT, TTC)
+/* Sample [
+  {label:'ordinateur',1500,3,19},
+  {label:'Imprimante',700,1,19},
+  {label:'Onduleur',600,2,19},
+]*/
